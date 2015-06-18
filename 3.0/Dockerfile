@@ -1,5 +1,5 @@
 # Speedus-lite container for Redis
-From redis:2.6
+From redis:3.0
 MAINTAINER Jorge Docampo <jorge.docampo@torusware.com>
 
 ENV root_home /root

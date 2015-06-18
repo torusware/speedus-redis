@@ -4,7 +4,9 @@ MAINTAINER Jorge Docampo <jorge.docampo@torusware.com>
 
 ENV root_home /root
 
-RUN apt-get update && apt-get -qqy install wget unzip make gcc openjdk-7-jdk
+RUN apt-get clean && apt-get update \
+ && apt-get -qqy install wget unzip make gcc \
+ && rm -rf /var/lib/apt/lists/*
 
 ENV speedus_dir /opt/torusware/speedus
 ENV netpipe_dir $speedus_dir/benchmarks/NetPIPE-C

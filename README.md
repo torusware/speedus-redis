@@ -13,8 +13,9 @@ Speedus is your communications highway:
 #Supported tags and respective `Dockerfile` link
 Each tag corresponds to the tag of the Redis base image:
 
-- [`2.6` *(2.6/Dockerfile)*](https://github.com/torusware/speedus-ubuntu/tree/master/precise "2.6 Dockerfile")
-- [`2.8`, `latest` *(2.8/Dockerfile)*](https://github.com/torusware/speedus-ubuntu/tree/master/trusty "2.8 Dockerfile")
+- [`2.6` *(2.6/Dockerfile)*](https://github.com/torusware/speedus-redis/tree/master/2.6 "2.6 Dockerfile")
+- [`2.8` *(2.8/Dockerfile)*](https://github.com/torusware/speedus-redis/tree/master/2.8 "2.8 Dockerfile")
+- [`3.0`, `latest` *(3.0/Dockerfile)*](https://github.com/torusware/speedus-ubuntu/tree/master/3.0 "3.0 Dockerfile")
 
 #Launching instructions
 In order to run a container with our image, execute:
@@ -56,4 +57,10 @@ If you need more information, you can check the README file inside the container
 #Check our other images in the Docker Hub
 
 - [speedus-ubuntu image](https://registry.hub.docker.com/u/torusware/speedus-ubuntu/ "Speedus Plug&Run Lite for Ubuntu")
+- [speedus-centos image](https://registry.hub.docker.com/u/torusware/speedus-centos/ "Speedus Plug&Run Lite for CentOS")
+- [speedus-mongo image](https://registry.hub.docker.com/u/torusware/speedus-mongo/ "Speedus Plug&Run Lite for MongoDB")
 
+#Example Use Case
+
+- [Optimizing communications between Docker containers](http://blog.torusware.com/2015/04/optimizing-communications-between.html "Optimizing communications between Docker containers")
+- [Increasing performace of a MongoDB Docker container in Azure](http://blog.torusware.com/2015/05/increasing-performace-of-mongodb-docker.html "Increasing performace of a MongoDB Docker container in Azure")
