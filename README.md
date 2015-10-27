@@ -1,7 +1,7 @@
 ![torusware logo](http://dl.torusware.com/images/torusware_isotipo_small.png "Torusware")
 ![speedus logo](http://dl.torusware.com/images/speedus_small.jpg "Speedus")
 ![redis logo](https://raw.githubusercontent.com/docker-library/docs/master/redis/logo.png "Redis")
-# Speedus Plug&Run Lite for Redis
+# Speedus Plug&Run for Redis
 Redis is an open-source, networked, in-memory, key-value data store with optional durability. With the speedus solution for high-performance communications, you can achieve even more speed in the most popular key-value store at the moment. Check us out at [our website](https://bit.ly/1MKxCuh).
 
 Speedus is your communications highway:
@@ -56,10 +56,10 @@ If you need more information, you can check the README file inside the container
 
 # Check our other images in the Docker Hub
 
-- [Speedus Plug&Run Lite for Ubuntu](https://registry.hub.docker.com/u/torusware/speedus-ubuntu/)
-- [Speedus Plug&Run Lite for CentOS](https://registry.hub.docker.com/u/torusware/speedus-centos/)
-- [Speedus Plug&Run Lite for MongoDB](https://registry.hub.docker.com/u/torusware/speedus-mongo/)
-- [Speedus Plug&Run Lite for YCSB](https://registry.hub.docker.com/u/torusware/speedus-ycsb/)
+- [Speedus Plug&Run for Ubuntu](https://registry.hub.docker.com/u/torusware/speedus-ubuntu/)
+- [Speedus Plug&Run for CentOS](https://registry.hub.docker.com/u/torusware/speedus-centos/)
+- [Speedus Plug&Run for MongoDB](https://registry.hub.docker.com/u/torusware/speedus-mongo/)
+- [Speedus Plug&Run for YCSB](https://registry.hub.docker.com/u/torusware/speedus-ycsb/)
 
 # Example Use Cases
 
