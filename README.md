@@ -20,17 +20,17 @@ Each tag corresponds to the tag of the Redis base image:
 # Launching instructions
 In order to run a container with our image, execute:
 ```bash
-sudo docker run --name speedus-redis -d torusware/speedus-redis
+sudo docker run --name speedus-redis -v /dev/shm:/dev/shm -d torusware/speedus-redis
 ```
 As the original Redis image, this image exposes port 6379, so standard container linking will make it automatically available to the linked containers.
 
 If you want to test the original Redis performance, you can launch a linked container that executes the built-in redis benchmark (this command executes only get and set tests for simplicity). Since we expect maximum performance, the client container shares the server container network stack:
 ```bash
-sudo docker run -it --net=container:speedus-redis --rm torusware/speedus-redis sh -c 'exec redis-benchmark -t get,set'
+sudo docker run -it --net=container:speedus-redis -v /dev/shm:/dev/shm --rm torusware/speedus-redis sh -c 'exec redis-benchmark -t get,set'
 ```
 For executing the test with Speedus, you just have to type `speedus` before the program:
 ```bash
-sudo docker run -it --net=container:speedus-redis --rm torusware/speedus-redis sh -c 'exec speedus redis-benchmark -t get,set'
+sudo docker run -it --net=container:speedus-redis -v /dev/shm:/dev/shm --rm torusware/speedus-redis sh -c 'exec speedus redis-benchmark -t get,set'
 ```
 As you can see, is really easy and non-intrusive!
 
