@@ -14,8 +14,11 @@ Speedus is your communications highway:
 Each tag corresponds to the tag of the Redis base image:
 
 - [`2.6` *(2.6/Dockerfile)*](https://github.com/torusware/speedus-redis/tree/master/2.6 "2.6 Dockerfile")
+- [`2.6-32bit` *(2.6/32bit/Dockerfile)*](https://github.com/torusware/speedus-redis/tree/master/2.6/32bit "2.6 32bit Dockerfile")
 - [`2.8` *(2.8/Dockerfile)*](https://github.com/torusware/speedus-redis/tree/master/2.8 "2.8 Dockerfile")
+- [`2.8-32bit` *(2.8/32bit/Dockerfile)*](https://github.com/torusware/speedus-redis/tree/master/2.8/32bit "2.8 32bit Dockerfile")
 - [`3.0`, `latest` *(3.0/Dockerfile)*](https://github.com/torusware/speedus-redis/tree/master/3.0 "3.0 Dockerfile")
+- [`3.0-32bit`, `32bit` *(3.0/32bit/Dockerfile)*](https://github.com/torusware/speedus-redis/tree/master/3.0/32bit "3.0 32bit Dockerfile")
 
 # Launching instructions
 In order to run a container with our image, execute:
