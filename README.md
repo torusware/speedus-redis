@@ -68,5 +68,5 @@ If you need more information, you can check the README file inside the container
 
 - [Optimizing communications between Docker containers](https://bit.ly/1IZdodU)
 - [Increasing performace of a Redis Docker container in Amazon Web Services](https://bit.ly/1KsVBJW)
-- [Increasing performace of a MongoDB Docker container in Azure](https://bit.ly/1LgUzDV)
+- [Increasing performace of a MongoDB Docker container in Azure](https://bit.ly/1KGHxNW)
 
