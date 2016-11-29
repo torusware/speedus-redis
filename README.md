@@ -10,15 +10,17 @@ Speedus is your communications highway:
 - Faster applications provide businesses with higher competitive advantages while reducing their IT bill
 - 100% nonintrusive software solution which takes full advantage of the underlying hardware
 
-#Supported tags and respective `Dockerfile` link
+# Supported tags and respective `Dockerfile` link
 Each tag corresponds to the tag of the Redis base image:
 
 - [`2.6` *(2.6/Dockerfile)*](https://github.com/torusware/speedus-redis/tree/master/2.6 "2.6 Dockerfile")
 - [`2.6-32bit` *(2.6/32bit/Dockerfile)*](https://github.com/torusware/speedus-redis/tree/master/2.6/32bit "2.6 32bit Dockerfile")
 - [`2.8` *(2.8/Dockerfile)*](https://github.com/torusware/speedus-redis/tree/master/2.8 "2.8 Dockerfile")
 - [`2.8-32bit` *(2.8/32bit/Dockerfile)*](https://github.com/torusware/speedus-redis/tree/master/2.8/32bit "2.8 32bit Dockerfile")
-- [`3.0`, `latest` *(3.0/Dockerfile)*](https://github.com/torusware/speedus-redis/tree/master/3.0 "3.0 Dockerfile")
-- [`3.0-32bit`, `32bit` *(3.0/32bit/Dockerfile)*](https://github.com/torusware/speedus-redis/tree/master/3.0/32bit "3.0 32bit Dockerfile")
+- [`3.0`, *(3.0/Dockerfile)*](https://github.com/torusware/speedus-redis/tree/master/3.0 "3.0 Dockerfile")
+- [`3.0-32bit`, *(3.0/32bit/Dockerfile)*](https://github.com/torusware/speedus-redis/tree/master/3.0/32bit "3.0 32bit Dockerfile")
+- [`3.2`, `latest` *(3.2/Dockerfile)*](https://github.com/torusware/speedus-redis/tree/master/3.2 "3.2 Dockerfile")
+- [`3.2-32bit`, `32bit` *(3.2/32bit/Dockerfile)*](https://github.com/torusware/speedus-redis/tree/master/3.2/32bit "3.2 32bit Dockerfile")
 
 # Launching instructions
 In order to run a container with our image, execute:
@@ -69,4 +71,3 @@ If you need more information, you can check the README file inside the container
 - [Optimizing communications between Docker containers](https://bit.ly/1IZdodU)
 - [Increasing performace of a Redis Docker container in Amazon Web Services](https://bit.ly/1KsVBJW)
 - [Increasing performace of a MongoDB Docker container in Azure](https://bit.ly/1KGHxNW)
-
