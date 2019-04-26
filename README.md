@@ -19,8 +19,10 @@ Each tag corresponds to the tag of the Redis base image:
 - [`2.8-32bit` *(2.8/32bit/Dockerfile)*](https://github.com/torusware/speedus-redis/tree/master/2.8/32bit "2.8 32bit Dockerfile")
 - [`3.0`, *(3.0/Dockerfile)*](https://github.com/torusware/speedus-redis/tree/master/3.0 "3.0 Dockerfile")
 - [`3.0-32bit`, *(3.0/32bit/Dockerfile)*](https://github.com/torusware/speedus-redis/tree/master/3.0/32bit "3.0 32bit Dockerfile")
-- [`3.2`, `latest` *(3.2/Dockerfile)*](https://github.com/torusware/speedus-redis/tree/master/3.2 "3.2 Dockerfile")
-- [`3.2-32bit`, `32bit` *(3.2/32bit/Dockerfile)*](https://github.com/torusware/speedus-redis/tree/master/3.2/32bit "3.2 32bit Dockerfile")
+- [`3.2`, *(3.2/Dockerfile)*](https://github.com/torusware/speedus-redis/tree/master/3.2 "3.2 Dockerfile")
+- [`3.2-32bit`, *(3.2/32bit/Dockerfile)*](https://github.com/torusware/speedus-redis/tree/master/3.2/32bit "3.2 32bit Dockerfile")
+- [`4.0`, `latest` *(4.0/Dockerfile)*](https://github.com/torusware/speedus-redis/tree/master/4.0 "4.0 Dockerfile")
+- [`4.0-32bit`, `32bit` *(4.0/Dockerfile.32bit)*](https://github.com/torusware/speedus-redis/tree/master/4.0 "4.0 32bit Dockerfile")
 
 # Launching instructions
 In order to run a container with our image, execute:
@@ -37,7 +39,6 @@ For executing the test with Speedus, you just have to type `speedus` before the 
 ```bash
 sudo docker run -it --net=container:speedus-redis -v /dev/shm:/dev/shm --rm torusware/speedus-redis sh -c 'exec speedus redis-benchmark -t get,set'
 ```
-As you can see, is really easy and non-intrusive!
 
 # Aditional tests
 
